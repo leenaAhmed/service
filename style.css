@@ -1,0 +1,103 @@
+/* global */ 
+* {
+	box-sizing: border-box;
+	margin: 0 ;
+} 
+clearfix {
+	clear: both;
+}
+.container {
+	width: 1170px;
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}    
+/* end global */ 
+.service {
+	    background-color: rgb(247, 250, 255); 
+	    padding: 80px 0px; 
+	    text-align: center;
+
+} 
+.service  .row {
+	    margin-left: -15px;
+        margin-right: -15px;
+} 
+.service-title {
+	margin-bottom: 40px;
+} 
+.service-title span {
+	color: rgb(16, 138, 249);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 3px;
+} 
+.service-title h1{
+	     font-size: 26px;
+         margin-top: 5px;
+         line-height: 35px;
+         font-weight: 500;
+	     font-family: Poppins, sans-serif;
+
+} 
+  .service .col{
+	    width: 33.3333%; 
+	    float: left ;
+	    position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;  
+	     
+} 
+.col-itms {
+	    position: relative;
+        margin-bottom: 40px;
+        box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 40px 0px;
+        transition: all 0.4s ease 0s;
+        padding: 40px 30px 25px;
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+}  
+.col-itms:hover      { 
+	     color: #fff ;
+	     background: rgb(52, 152, 219);
+} 
+i.ser_icon {
+    font-size: 40px;
+    padding-bottom: 22px;
+    display: inline-block;
+    float: left;
+    margin-right: 35px;
+    margin-top: 45px;
+    transition: all 0.2s ease 0s ;
+	color: rgb(52, 152, 219);
+
+}   
+.col-itms:hover .ser_icon  {
+	color: #fff ;
+}
+.col-itms:hover h4  {
+	color: #fff ;
+}
+
+.ser-content{
+	    text-align: left;
+        overflow: hidden;
+}
+.ser-content h4 { 
+	     color: rgb(51, 51, 51);
+         padding-bottom: 15px;
+         margin: 0px;
+         transition: all 0.2s ease 0s;
+         font-family: Poppins, sans-serif;
+	     font-weight: 550;
+         letter-spacing: 1px; 
+	    
+}
+.ser-content p { 
+	
+	margin-bottom: 30px; 
+	line-height: 1.5 ;
+}  
